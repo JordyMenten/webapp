@@ -1,8 +1,8 @@
 <?php
 echo gethostname();
 echo "<br>";
-$password = getenv('Password');
-$servername = getenv('Servername');
+$password = getenv('PASSWORD');
+$servername = getenv('SERVERNAME');
 $username = "apache";
 $dbname = "employees";
 
